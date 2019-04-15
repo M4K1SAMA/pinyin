@@ -155,7 +155,7 @@ def Realtime_test():
 def output_as_text(src, mode):
     with open(src, 'r') as f:
         lines = f.readlines()
-    with open('output.txt', 'w') as f:
+    with open('outputs/output' + src[12:], 'w') as f:
         output = ''
         for line in lines:
             output += optimize(line[:-1], mode=mode) + '\n'
