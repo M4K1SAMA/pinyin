@@ -1,2 +1,2 @@
 # pinyin
-This is a hw for AI Introduction.
+This is a hw for the course Introduction to AI.
